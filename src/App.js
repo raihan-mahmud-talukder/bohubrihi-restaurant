@@ -1,10 +1,10 @@
+import { MainComponent } from "./components/MainComponent"
 
-function App() {
+export const App = () => {
   return (
     <div>
-      <h1>BOHUBRIHI RESTAURANT</h1>
-          </div>
-  );
+      BOHUBRIHI RESTAURANT
+      <MainComponent />
+    </div>
+  )
 }
-
-export default App;
