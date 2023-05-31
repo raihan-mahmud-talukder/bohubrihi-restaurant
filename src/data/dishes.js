@@ -1,0 +1,116 @@
+export const DISHES = [
+    {
+        id: 0,
+        name: 'Ginger Burger',
+        image: 'assets/image/burger.jpg',
+        category: 'meal',
+        label: 'Hot',
+        price: '299',
+        description: 'This chicken burger gets asian flavor tewins with ginger and garlic.Its too famous chicken burger',
+        comments: [
+            {
+                id: 0,
+                rating: 5,
+                comment: 'Imagine all the etables,living in confusion',
+                author: 'Syed',
+                date: "2018-10-16T17:57:28",
+            },
+            {
+                id: 1,
+                rating: 4,
+                comment: 'Imagine all the etables,living in confusion',
+                author: 'Nazrul',
+                date: "2018-10-15T15:57:28",
+            },
+            {
+                id: 2,
+                rating: 3,
+                comment: 'Eat it, just eat it!',
+                author: 'Islam',
+                date: "2018-10-14T14:57:28",
+            },
+            {
+                id: 3,
+                rating: 4,
+                comment: 'Testy and resenable price',
+                author: 'Sharmin',
+                date: "2018-10-12T12:57:28",
+            }
+        ],
+    },
+    {
+        id: 1,
+        name: 'BBQ Pizza',
+        image: 'assets/image/pizza.jpg',
+        category: 'meal',
+        label: 'Hot',
+        price: '599',
+        description: 'This Special Pizza gets asian flavor tewins with ginger and garlic.Its too famous 12" inchi chicken Pizza',
+        comments: [
+            {
+                id: 0,
+                rating: 5,
+                comment: 'Imagine all the etables,living in confusion',
+                author: 'Nazrul',
+                date: "2018-10-16T17:57:28",
+            },
+            {
+                id: 1,
+                rating: 5,
+                comment: 'Imagine all the etables',
+                author: 'Syed',
+                date: "2018-10-15T15:57:28",
+            }
+        ],
+    },
+    {
+        id: 2,
+        name: 'Pasta',
+        image: 'assets/image/pasta.jpg',
+        category: 'meal',
+        label: 'Hot',
+        price: '400',
+        description: 'Masala pasta recipe made in Indian style with Indian spices, herbs, mix veggies & pasta.This super delicious dish is kids friendly',
+        comments: [
+            {
+                id: 0,
+                rating: 5,
+                comment: 'Imagine and super testy',
+                author: 'Syed',
+                date: "2018-10-16T17:57:28",
+            },
+            {
+                id: 1,
+                rating: 4,
+                comment: 'This super delicious dish',
+                author: 'Nazrul',
+                date: "2018-10-15T15:57:28",
+            },
+        ],
+    },
+    {
+        id: 3,
+        name: 'Chicken Biriyani',
+        image: 'assets/image/chicken-biriyani.jpg',
+        category: 'meal',
+        label: 'Hot',
+        price: '500',
+        description: 'Masala chicken biriyani recipe made in Indian style with Indian spices, herbs, mix veggies & chicken biriyani.This super delicious dish is kids friendly',
+        comments: [
+            {
+                id: 0,
+                rating: 5,
+                comment: 'Imagine and super delicious',
+                author: 'Syed',
+                date: "2018-10-16T17:57:28",
+            },
+            {
+                id: 1,
+                rating: 4,
+                comment: 'super delicious',
+                author: 'Nazrul',
+                date: "2018-10-15T15:57:28",
+            },
+        ],
+    },
+];

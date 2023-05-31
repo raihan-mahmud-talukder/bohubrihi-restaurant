@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { DISHES } from "../data/dishes"
+import { DISHES } from "../../data/dishes"
 import { MenuItem } from "./MenuItem"
 
 export const Menu = () => {
