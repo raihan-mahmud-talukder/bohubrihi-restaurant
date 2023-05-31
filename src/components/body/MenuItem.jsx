@@ -1,14 +1,17 @@
 import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap"
 
-export const MenuItem = ({ dish }) => {
+export const MenuItem = ({ dish, onSelectDish }) => {
     return (
         <>
             <Card inverse style={
                 {
                     padding: '10px',
                     margin: '10px',
+                    cursor: 'pointer'
                 }
-            }>
+            }
+            onClick = {() => onSelectDish(dish)}
+            >
                 <CardImg
                     alt=""
                     src={dish.image}
@@ -16,7 +19,7 @@ export const MenuItem = ({ dish }) => {
                         {
                             height: 270,
                             width: '100%',
-                            opacity: '0.5'
+                            opacity: '0.7'
                         }
                     }
                     />
