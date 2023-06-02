@@ -1,9 +1,10 @@
+import { BrowserRouter } from "react-router-dom"
 import { MainComponent } from "./components/MainComponent"
 
 export const App = () => {
   return (
-    <div>
+    <BrowserRouter>
       <MainComponent />
-    </div>
+    </BrowserRouter>
   )
 }
